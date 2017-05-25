@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="104dp"
+              android:background="#dddddd">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류"
+            android:id="@+id/r_sbc_subject"
+            android:textSize="11dp"
+            android:textColor="#666666"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="18dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="전자결재 신규 등록 내용입니다."
+                android:id="@+id/r_sbc_title"
+                android:textSize="15dp"
+                android:gravity="top|left"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_width="250dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="(0)"
+                android:id="@+id/r_sbc_cnt"
+                android:textSize="13dp"
+                android:gravity="top|right"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="현장명"
+            android:id="@+id/r_sbc_build"
+            android:textSize="12dp"
+            android:paddingLeft="6dp"
+            android:paddingTop="3dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="3dp"
+            android:textColor="#666666"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <!-- @drawable/abc_ic_go_search_api_material -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1212111"
+            android:id="@+id/r_sbc_docno"
+            android:textSize="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="19dp"
+            android:textColor="#666666"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2016.07.11"
+            android:id="@+id/r_sbc_date"
+            android:textSize="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="19dp"
+            android:textColor="#666666"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="결재현황"
+            android:id="@+id/r_sbc_level"
+            android:textSize="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="갓성우 팀장"
+            android:id="@+id/r_sbc_name"
+            android:textSize="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="#666666"
+            android:layout_alignParentBottom="true" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/r_sbc_btn_image"
+        android:src="@drawable/ico_right"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="15dp"
+        android:alpha="0.5" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/r_sbc_ico_new"
+        android:src="@drawable/ico_n"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="17dp"
+        android:alpha="0" />
+
+</RelativeLayout>

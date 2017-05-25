@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WhiteButtonLightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="GrayButtonLightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/monsoon</item>
+    </style>
+
+    <style name="BasicButtonLightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/black</item>
+    </style>
+</resources>

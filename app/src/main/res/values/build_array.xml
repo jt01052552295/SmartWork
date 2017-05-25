@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="build_type">
+        <item>진행현장</item>
+        <item>완료현장</item>
+        <item>전체</item>
+    </string-array>
+
+</resources>

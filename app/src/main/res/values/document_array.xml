@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="document_type">
+        <item>전체</item>
+        <item>기안서</item>
+        <item>지출결의서</item>
+        <item>설계변경</item>
+        <item>무상처리</item>
+    </string-array>
+
+</resources>

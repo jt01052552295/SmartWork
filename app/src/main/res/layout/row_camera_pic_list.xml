@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/r_camera_pic_photo"
+        android:background="#aaaaaa"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="66dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:text="현장명"-->
+            <!--android:id="@+id/r_camera_pic_build_name"-->
+            <!--android:textSize="13dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginBottom="5dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:text="공정명"-->
+            <!--android:id="@+id/r_camera_pic_labor_name"-->
+            <!--android:textSize="13dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginBottom="5dp" />-->
+
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="위치"
+            android:id="@+id/r_camera_pic_location"
+            android:textSize="13dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp" /-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:text="내용"-->
+            <!--android:id="@+id/r_camera_pic_content"-->
+            <!--android:textSize="13dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginBottom="5dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:text="일자"-->
+            <!--android:id="@+id/r_camera_pic_date"-->
+            <!--android:textSize="13dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginBottom="5dp" />-->
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_row_camera_pic_delete"
+        android:src="@drawable/cwac_cam2_ic_close_white"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_row_camera_pic_modify"
+        android:src="@drawable/abc_ic_menu_selectall_mtrl_alpha"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:id="@+id/btn_row_camera_pic_add"
+        android:src="@drawable/fab_add"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="98dp" />
+</RelativeLayout>
