@@ -64,6 +64,8 @@ import static android.Manifest.permission.RECORD_AUDIO;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    // Main Activity
     private static final String TAG = "Main";
     private static BackPressCloseHandler backPressCloseHandler;
     private static RbPreference pref;
